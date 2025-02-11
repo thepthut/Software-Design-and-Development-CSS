@@ -683,12 +683,105 @@ font-weight: bold;
 
 ### ผลการทดลอง
 ```html
-[วางโค้ด HTML ที่นี่]
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <article class="blog-post">
+        <header class="post-header">
+            <h1 class="post-title">วิธีการเขียนบทความที่น่าสนใจ</h1>
+            <div class="post-meta">โพสต์เมื่อ 1 มกราคม 2025 | โดย ผู้เขียน</div>
+        </header>
+
+        <div class="post-content">
+            <p>เนื้อหาบทความที่ดีควรมีความน่าสนใจและเป็นประโยชน์ต่อผู้อ่าน การเขียนบทความให้น่าอ่านนั้นมีหลักการสำคัญหลายประการ</p>
+
+            <h2>1. การเลือกหัวข้อที่น่าสนใจ</h2>
+            <p>หัวข้อที่ดีควรตรงกับความสนใจของกลุ่มเป้าหมาย และมีประโยชน์ต่อผู้อ่าน</p>
+
+            <blockquote>
+                "การเขียนที่ดีไม่ได้เกิดจากพรสวรรค์เพียงอย่างเดียว แต่เกิดจากการฝึกฝนอย่างสม่ำเสมอ"
+            </blockquote>
+
+            <h2>2. การจัดโครงสร้างเนื้อหา</h2>
+            <p>เนื้อหาที่ดีควรมีการจัดลำดับที่เป็นระบบ เข้าใจง่าย และมีความต่อเนื่อง</p>
+        </div>
+    </article>
+</body>
+</html>
 ```
 ```css
-[วางโค้ด CSS ที่นี่]
+.blog-post {
+    max-width: 900px; 
+    margin: 2rem auto;
+    padding: 0 1rem;
+    font-family: 'Arial', sans-serif; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.post-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem 0; 
+    background-color: #fff; 
+    border-bottom: 1px solid #eee; 
+}
+
+.post-title {
+    font-size: 3rem; 
+    color: #0056b3; 
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.post-meta {
+    color: #888; 
+    font-size: 1rem; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.post-content {
+    font-size: 1.2rem; 
+    line-height: 1.8;
+    color: #555; 
+    padding: 1rem 0; 
+}
+
+.post-content p {
+    margin-bottom: 1.5rem;
+}
+
+.post-content h2 {
+    font-size: 2rem; 
+    color: #333;
+    margin: 2rem 0 1rem;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #007bff;
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+    color: #777; 
+    background-color: #f0f0f0; 
+    padding: 1rem; 
+    border-radius: 4px; 
+}
+
+@media (max-width: 768px) {
+    .post-title {
+        font-size: 2.5rem; 
+    }
+}
 ```
-[บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+![Screenshot 2025-02-11 230020](https://github.com/user-attachments/assets/60aec2b0-fca2-4a5e-a6f6-b33d66c3d085)
+
 
 [](#การทดลองที่-6-Layout-และการจัดวางอิลิเมนต์)
 ## การทดลองที่ 6: Layout และการจัดวางอิลิเมนต์
