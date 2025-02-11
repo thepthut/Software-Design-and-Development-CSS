@@ -355,9 +355,57 @@ background-size: cover;
 
 ### ผลการทดลอง
 ```html
-[วางโค้ดที่นี่]
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Cards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="product-card">
+        <div class="product-image" style="background-image: url('images/product1.jpg');"></div>
+        <div class="product-info">
+            <h2 class="product-title">สินค้า 1</h2>
+            <p class="product-price">฿1,999</p>
+            <p class="product-description">รายละเอียดสินค้า 1</p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+
+    <div class="product-card">
+        <div class="product-image" style="background-image: url('images/product2.jpg');"></div>
+        <div class="product-info">
+            <h2 class="product-title">สินค้า 2</h2>
+            <p class="product-price">฿2,999</p>
+            <p class="product-description">รายละเอียดสินค้า 2</p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+
+    <div class="product-card">
+        <div class="product-image" style="background-image: url('images/product3.jpg');"></div>
+        <div class="product-info">
+            <h2 class="product-title">สินค้า 3</h2>
+            <p class="product-price">฿3,999</p>
+            <p class="product-description">รายละเอียดสินค้า 3</p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+
+    <div class="product-card">
+        <div class="product-image" style="background-image: url('images/product4.jpg');"></div>
+        <div class="product-info">
+            <h2 class="product-title">สินค้า 4</h2>
+            <p class="product-price">฿4,999</p>
+            <p class="product-description">รายละเอียดสินค้า 4</p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+</body>
+</html>
 ```
-[บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+![Screenshot 2025-02-11 224416](https://github.com/user-attachments/assets/49ea27b0-cea2-4dc7-9c08-ebcd03305780)
+
 
 [](#การทดลองที่-4-การจัดการขนาดและระยะห่าง)
 ## การทดลองที่ 4: การจัดการขนาดและระยะห่าง
